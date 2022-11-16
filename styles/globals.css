@@ -1,0 +1,38 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+:root{
+  --primary : #EFEFEF;
+  --secondary : #D8AD88;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+}
+
+li{
+  list-style: none;
+}
+
+/* img {
+    max-width: 100%;
+    max-height: 100%;
+} */
+
+
+/* @media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    color: white;
+    background: black;
+  }
+} */

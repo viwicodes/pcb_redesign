@@ -1,0 +1,69 @@
+
+
+.navigation{
+  background-color: var(--primary);
+  width: 100%;
+  height: 10%;
+  display: flex;
+}
+
+.navbar{
+  width : 96%;
+  height : 100%;
+}
+
+.filler{
+  width: 4%;
+  height: 100%;
+  background-color: var(--secondary);
+}
+
+.mainHero{
+  width: 100vw;
+  height: 90%;
+  display: flex;
+  flex-direction: row;
+}
+
+.social{
+  background-color: var(--secondary);
+  width : 4%;
+  height : 100%;
+}
+
+.player{
+  background-color: var(--primary);
+  width : 48%;
+  height : 100%;
+}
+
+.profile{
+  width : 48%;
+  height : 100%;
+  overflow: hidden;
+}
+
+.profile > img{
+  object-fit: cover;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.LKKneJCVRLbYQrEtNZ8g{
+  background-color: var(--secondary);
+}
+
+@media (prefers-color-scheme: dark) {
+  .card,
+  .footer {
+    border-color: #222;
+  }
+  .code {
+    background: #111;
+  }
+  .logo img {
+    filter: invert(1);
+  }
+}
